@@ -12,6 +12,6 @@ public class ValidateLicensePlateNumber {
 
     public static void main(String[] args) {
         System.out.println(isValidate("AB1234")); //VALID
-        System.out.println(isValidate("A12345"));
+        System.out.println(isValidate("A12345")); //invalid
     }
 }
