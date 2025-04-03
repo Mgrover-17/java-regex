@@ -1,4 +1,4 @@
-package com.bridgelabz.junit.basic;
+package com.junit.basic;
 
 import java.util.List;
 
