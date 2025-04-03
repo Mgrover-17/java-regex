@@ -33,7 +33,15 @@ public class ListManagerTest {
 
    @Test
     public void shouldRemoveElementFromTheList(){
+        listManager.removeElement(list,0);
+        Assertions.assertEquals(0,list.size());
+   }
 
+   @Test
+    public void shouldGetSizeOfList(){
+        list.add(1);
+        list.add(2);
+        Assertions.assertEquals(2,listManager.getSize(list));
    }
 
 }
